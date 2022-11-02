@@ -1,1 +1,1 @@
-# WP-Theme-One
+#minimal theme

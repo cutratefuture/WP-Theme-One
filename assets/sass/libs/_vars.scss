@@ -1,0 +1,71 @@
+// Misc.
+$misc: (
+  z-index-base: 10000,
+);
+
+// Duration.
+$duration: (
+  nav: 0.5s,
+  navPanel: 0.5s,
+  transition: 0.2s,
+);
+
+// Size.
+$size: (
+  border-radius: 8px,
+  element-height: 2.75em,
+  element-margin: 2em,
+  navPanel: 18em,
+  navPanel-short: 12em,
+);
+
+// Font.
+$font: (
+  family: (
+    'Raleway',
+    Helvetica,
+    sans-serif,
+  ),
+  family-fixed: (
+    'Courier New',
+    monospace,
+  ),
+  family-heading: (
+    'Montserrat',
+    sans-serif,
+  ),
+  weight: 300,
+  weight-bold: 500,
+  weight-heading: 700,
+  letter-spacing: 0.05em,
+  letter-spacing-alt: 0.25em,
+);
+
+// Palette.
+$palette: (
+  bg: #f4f4f4,
+  fg: #444,
+  fg-bold: #555,
+  fg-light: #bbb,
+  bg-alt: #ffffff,
+  border: #cccccc,
+  border-bg: rgba(144, 144, 144, 0.075),
+  accent1: (
+    bg: #d8475a,
+    fg: mix(#d8475a, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#d8475a, #ffffff, 40%),
+    border: rgba(255, 255, 255, 0.25),
+    border-bg: rgba(255, 255, 255, 0.075),
+  ),
+  accent2: (
+    bg: #2a2b2e,
+    fg: mix(#2a2b2e, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#2a2b2e, #ffffff, 40%),
+    border: #ffffff,
+    border-bg: rgba(207, 201, 214, 0.1),
+    border2: #ffffff,
+    border2-bg: rgba(207, 201, 214, 0.25),
+  ),
+);
